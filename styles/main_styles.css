@@ -13,13 +13,6 @@ body {
   height:auto;
 }
 
-.blueface {
-  background-color:blue;
-  opacity: .6;
-  height:100%;
-  width:100%;
-}
-
 header {
   background:
     linear-gradient(

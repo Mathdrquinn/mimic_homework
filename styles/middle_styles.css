@@ -177,7 +177,17 @@ p span a {
 .headshot {
   border-radius:100%;
   width:80px;
-  padding:5px;
+  margin:5px;
+  background-color:#0013FF;
+}
+
+.blueface {
+  background-color:#0013FF;
+}
+.blueface:hover {
+  opacity:1;
+}
+
 }
 .author_name{
   display: block;
@@ -219,6 +229,14 @@ p span a {
   position: relative;
   width:100%;
   text-decoration: underline;
+  background-color:#0013FF;
+}
+.add_pic_pelican {
+  display:block;
+  position: relative;
+  width:100%;
+  text-decoration: underline;
+  opacity:.6;
 }
 .add_link {
   display:block;

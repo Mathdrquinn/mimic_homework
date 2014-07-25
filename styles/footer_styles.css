@@ -43,7 +43,7 @@ h3 {
   max-height:315px;
   margin-right:-2px;
   margin-bottom:-5px;
-  background-color:blue;
+  background-color:#0013FF;
   opacity:0.6;
   padding-top:0px;
   padding-left:0;
@@ -53,6 +53,7 @@ h3 {
   position:absolute;
   vertical-align:bottom;
   bottom:30px;
+  font-size:20px;
 }
 .footer_images:hover {
   opacity:1.0;
@@ -65,22 +66,38 @@ h3 {
 .footer_butt {
   display:block;
   position: relative;
-  text-align:center;
-  background-color:#003488;
-  height:80px;
+  background-color:#002D5E;
+  height:90px;
   width:1200px;
   text-align:center;
 }
 .butt_left {
-  border: 2px solid red;
   display:inline-block;
   position:relative;
   width:40%;
   height:100%;
   vertical-align:top;
+  text-align:left;
+}
+.butt_left_1 {
+  display:inline-block;
+  position:relative;
+  vertical-align:top;
+  width:100%;
+  max-width:60px;
+  margin: 5px 5px auto auto;
+  opacity:1;
+}
+.butt_left_2 {
+  display:inline-block;
+  position:relative;
+  vertical-align:top;
+  color: grey;
+  font-size: 14px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-top:30px;
 }
 .butt_right {
-  border: 2px solid red;
   display:inline-block;
   position:relative;
   width:40%;
