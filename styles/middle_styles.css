@@ -38,13 +38,48 @@ h2 {
 }
 
 .signature {
-  display:inline-block;
+  display:block;
   position:relative;
   text-align:left;
-  border: 2px solid black;
-  height:15px;
   width:100%;
   margin:0 auto;
+}
+.small_headshot {
+  display: inline-block;
+  position: relative;
+  padding:3px 0 0 0;
+  margin:0px;
+  border-radius:100%;
+  width:25px;
+}
+.sig_name {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  color:grey;
+  padding-top:5px;
+  vertical-align:top;
+}
+.sig_sig {
+  color:blue;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  vertical-align: top;
+  text-decoration: none;
+  padding-top:0px;
+}
+.sig_date {
+  color:grey;
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  vertical-align: top;
+  text-decoration: underline;
+  padding-top:0px;
+
 }
 
 .text {
@@ -93,12 +128,20 @@ p span a {
   padding:0px;
   margin:5px;
   height:20px;
-  border: 1px solid red;
 }
 .share_image {
   display:inline-block;
   position:relative;
   width:20px;
+  background-color:lightgrey;
+  padding:auto;
+
+}
+.share_image1 {
+  display:inline-block;
+  position:relative;
+  width:20px;
+  margin-top:5px;
 }
 .share_text {
   display: inline-block;
@@ -108,7 +151,8 @@ p span a {
   font-size: 10px;
   background-color: grey;
   height: 100%;
-  vertical-align: middle;
+  vertical-align: top;
+  padding:10px 10px 5px 5px;
 }
 .share_text3 {
   display: inline-block;
@@ -118,16 +162,50 @@ p span a {
   font-size: 10px;
   background-color: #003488;
   height: 100%;
-  vertical-align: middle;
+  vertical-align: top;
+  padding:10px 10px 5px 5px;
 }
 
 .author {
-  border: 1px solid black;
   display:block;
   position:relative;
   width:100%;
   min-height:100px;
   text-align:center;
+  padding-bottom:20px;
+}
+.headshot {
+  border-radius:100%;
+  width:80px;
+  padding:5px;
+}
+.author_name{
+  display: block;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #003488 ;
+  font-size:15px;
+  font-weight:normal;
+}
+.author_contact {
+  display: block;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color: #003488 ;
+  font-size:15px;
+  font-weight:normal;
+}
+.author_contact a{
+  position:relative;
+  padding-top:0px;
+  padding-bottom:5px;
+  color:grey;
+}
+.borderman {
+  padding-left: 5px;
+  padding-right:5px;
+  margin-left:5px;
+  margin-right:5px;
+  border-left: 2px solid lightgrey;
+  border-right: 2px solid lightgrey;
 }
 .ad {
   display:block;
@@ -139,7 +217,8 @@ p span a {
 .add_pic {
   display:block;
   position: relative;
-  width:100%
+  width:100%;
+  text-decoration: underline;
 }
 .add_link {
   display:block;
